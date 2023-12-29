@@ -1,0 +1,79 @@
+.card {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 30rem;
+  background: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  color: rgb(189, 187, 153);
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+.card a {
+  color: rgb(189, 187, 153);
+  text-decoration: none;
+}
+
+.quotetext {
+  text-align: center;
+  width: 450px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+.quoteauthor {
+  width: 450px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+
+.button {
+  width: 450px;
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: white;
+  outline: none;
+  font-size: 1em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.9;
+}
+
+.buttonright {
+  float: right;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: rgb(189, 187, 153);
+  outline: none;
+  font-size: 0.85em;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.socialbutton {
+  float: left;
+  text-align: center;
+  font-size: 0.85em;
+  margin-right: -10px;
+  height: 30px;
+  width: 40px;
+}
